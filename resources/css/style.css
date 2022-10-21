@@ -1,1 +1,280 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: rgb(155, 76, 76);
+    opacity: 1;
+    text-align: center;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    scroll-padding-top: 4rem;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header p {
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 12px;
+}
+
+.mission {
+    max-width: 75rem;
+    margin: auto;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.mission-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+.mission-img-container {
+    display: flex;
+    height: 43.75rem;
+    max-width: 75rem;
+    position: relative;
+    align-items: center;
+}
+
+.mission-text {
+    background-color: rgb(155, 76, 76);
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    top: 24rem;
+}
+
+.mission-text h2, h4 {
+    margin: 0;
+}
+
+.featured-tea {
+    max-width: 125rem;
+    margin:auto;
+}
+
+.img-container {
+    height: 20em;
+    width: 20rem;
+}
+
+.fall {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 10%;
+    
+}
+
+#disney {
+    object-position: 0 50%;
+}
+
+#disneyland {
+    object-position: 0 100%;
+}
+
+#cruise {
+    object-position: 0 90%;
+}
+
+.tea-header {
+    margin-top: 40px;
+}
+
+.tea-header h2 {
+    font-size: 40px;
+}
+
+.tea-img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.tea-title {
+    border: 1px solid green;
+}
+
+.text-container h4 {
+    margin: 10px;
+}
+
+.locations {
+    margin-top: 90px;
+}
+
+.locations-img-container {
+    height: 500px;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.locations-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.locations-header {
+    position: absolute;
+    background-color: transparent;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 30px;
+}
+
+.locations-boxes-container {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: transparent;
+    gap: 40px;
+    top: 75px;
+}
+
+.locations-box {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    opacity: 1;
+}
+
+.locations-box h3,
+.locations-box p {
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    height: 200px;
+    max-width: 1200px;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+footer p {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 13px;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    margin: auto;
+    margin-top: 5rem;
+    border: 1px solid seashell;
+    min-height: 300px;
+    max-width: 1000px;
+    margin-bottom: 5rem;
+}
+
+.card-container h1 {
+    font-size: 40px;
+}
+
+.card-container p {
+    font-size: 28px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .card-container h1 {
+        font-size: 20px;
+    }
+    .card-container p {
+        font-size: 18px;
+    }
+    header p {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    a {
+        font-size: 15px;
+    }
+
+    .img-container {
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .mission-img-container {
+        margin-top: -150px;
+       
+    }
+
+    .mission-img {
+        object-fit: scale-down;
+    }
+
+    .featured-tea {
+        position: relative;
+        margin-top: -330px;
+    }
+}
 
